@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>magasiner ici</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgba(112, 57, 57, 0.267);">
+   <nav class="navbar">
+       <ul class="nav-list">
+          <div class="logo"><img src="images/logo.png.png" alt="logo" width="200" height="150"></div>
+         <li><a href="#Home">Home</a></li>
+         <li><a href="#Best Seller">Best Seller</a></li>
+         <li><a href="#Top Offers">Top Offers</a></li>
+         <li><a href="#Fashion">Fashion</a></li>
+         <li><a href="#Electronics">Elecrtonics</a></li>
+         <li><a href="#Grocery">Grocery</a></li>
+         <li><a href="#Home & Kitchen">Home & Kitchen</a></li>
+         <li> <input type="text" name="search" id="search"></li>
+         <li> <button >search</button></li>
+           
+         </ul>
+    </nav>
+    <h2>Shopping Cart</h2>
+    <div class="container">
+ <div class="cart">
+ <div class="products">
+    <div class="product">
+        <img src="images/shoe.png" width="150" height="100" >
+   <div class="product-info">
+        <h3 class="pr1 pr"> Nike Air Force 1</h3>
+        <h4 class="pr2 pr">Rs 11,197</h4>
+        <h5 class="pr3 pr">In stock</h5>   
+        <h4 class="pr4 pr">19%</h4>
+            <p class="pr5 pr">Qnt: <input value="1" name="">
+             </p>
+                <p class="product-remove">
+                <span class="remove"> remove</span>
+           </p>
+        </div>
+    </div>
+</div>
+<div class="cart-total">
+    <p>
+        <span>Total Price</span>
+        <span>Rs 9,197 </span>
+    </p>
+<p>
+    <span> Number of items</span>
+    <span>1</span>
+</p>
+<p>        
+<span> You save</span>
+        <span>2000</span>
+    </p>
+
+</div>
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="footer">   
+ <div class="container">
+     <div class="row">
+         <div class="footer-col-1">
+             <h3> Download Our App </h3>
+             <p>Download App for Andriod and ios mobile phone.</p>
+                 </div>
+                 <div class="footer-col-2">
+                    <ul style="list-style-type: none;">
+                    <h3> Get to know us </h3>
+                         <li> About us</li>
+                         <li> Contact us</li>
+                         <li>Email us </li>
+                    </ul>
+                        </div>       
+                        <div class="footer-col-3">
+                            <ul style="list-style-type: none;" >
+                            <h3> Follow us on </h3>
+                               <li>Facebook</li>
+                                <li>Twitter</li>
+                                <li>Instagram</li>
+                            </ul>
+                                </div> 
+                    </div>
+            </div>
+       </div>
+</body>
+</html>
